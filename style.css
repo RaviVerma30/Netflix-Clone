@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Netflixsans;
+    src: url(./netflix-sans-cufonfonts/NetflixSansThin.ttf);
+}
+@font-face {
+    font-family:netflixsanshead; 
+    src: url(./netflix-sans-cufonfonts/NetflixSansRegular.ttf);
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+
+}
+.root{
+    background-position: center;
+    background-size: cover;
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(./newbackground.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+.navbar{
+    height: 10vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 9rem;
+    height: 5rem;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.language{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: 6rem;
+    font-size: 0.9rem;
+    align-content: center;
+    margin-right: 25px;
+    
+
+
+}
+.buttonsignin{
+    background-color: #e50914; 
+    font-size: 0.9rem;
+    height: 1.7rem;
+    width: 4.7rem;
+    padding-top: 5px;
+    text-align: center;
+
+    line-height: normal;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: netflixsanshead;
+    margin-right: 30px;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.submain{
+    color: white;
+    width: 45%;
+    text-align: center;
+}
+.heading{
+    font-size: 3.125em;
+    margin-bottom: 14px;
+    font-family: netflixsanshead;
+    line-height: 1.1;
+}
+.subhead{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    font-family:Netflixsans;
+}
+.para{
+    font-family: Netflixsans;
+
+    font-size: 1.1em;
+}
+.emailcontainer{
+    width: 50%;
+    height: fit-content;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.email{
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    font-size: 1rem;
+}
+.click{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family:netflixsanshead;
+    background-color:#e50914 ;
+    font-size: 1.6em;
+    height: fit-content;
+    color: white;
+    text-align: center;
+
+
+}
+.click:hover{
+background-color: #fa1823;
+}
